@@ -1,0 +1,11 @@
+# Preface
+
+Testing is one of the hottest topics when it comes to software development and building ambitious web applications. Most of the available resources about **Test-Driven Development** / **Test-First** approach for web applications is based on server-side programming. If you come from Ruby on Rails background or from any other technology, which embraces writing tests, you may think that testing your client-side apps should be similar and when it comes to writing good tests, similar rules should apply.
+
+For testing **client-side applications** this is not always true. Have you heard about the concept of [test pyramid](https://martinfowler.com/bliki/TestPyramid.html) and the rules/suggestions stating that you should mostly focus on unit testing, add some integration tests on top and have only a small amount of acceptance (end-to-end) tests? These guidelines are certainly useful when it comes to building server-side apps. However, in **Ember.js** the pyramid of testing could literally be inverted and the majority of the focus could be put on acceptance tests!
+
+Testing **Ember.js** or any other **JavaScript** client-side applications is a skill of its own, and the abundance of asynchronous actions in most of the apps and other things that are not common in server-side programming makes it harder to write efficient and maintainable tests. Thanks to Ember community, there are plenty of tools like [ember-cli-mirage](http://github.com/samselikoff/ember-cli-mirage/pulls) that make testing faster and simpler; nevertheless, it doesn't mean that those tests are going to be easy and obvious to write.
+
+**Test-Driven Development** has been a fundamental concept for me since learning Ruby on Rails, and when I was starting my journey with Ember, it wasn't that clear to me how to do it right. Learning that skill took me a lot of time and effort, and I would love to share this knowledge with you. I hope that after reading this book, you will have a clear idea what tools you should use in your own ambitious Ember projects and what kind of tests you should write to make the development process efficient and smooth. It took me over two years to learn how to do it well, and now you have a chance to learn all these concepts in the next few hours ;). Enjoy!
+
+\pagebreak
